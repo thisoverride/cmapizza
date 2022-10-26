@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body {
     background-color: cornsilk;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -11,17 +18,27 @@ a {
 }
 
 nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background-color: #ffff;
     padding: 20px;
 }
 
 .content-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 80%;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .btn-rounded-dark {
@@ -37,15 +54,20 @@ nav {
     padding: 12px;
     color: #000;
     -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
 }
 
 .header-content {
     height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 video {
@@ -66,20 +88,33 @@ video {
 }
 
 .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 
 footer {
     height: 11vh;
     background-color: #ffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .footer-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 80%;
 }
