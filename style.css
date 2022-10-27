@@ -73,7 +73,7 @@ video {
 
 .main-content {
     text-align: center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .main-content>h1 {
