@@ -1,13 +1,6 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 body {
-    background-color: cornsilk;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 a {
@@ -24,7 +17,7 @@ nav {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: #ffff;
+    background-color: rgba(255, 255, 255, 0.591);
     padding: 20px;
 }
 
@@ -35,7 +28,7 @@ nav {
     width: 80%;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -59,6 +52,7 @@ nav {
 
 .header-content {
     height: 80vh;
+    /* background-color: red; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -96,7 +90,12 @@ video {
 }
 
 footer {
-    height: 11vh;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    /* padding: 50px; */
+    height: 50px;
     background-color: #ffff;
     display: -webkit-box;
     display: -ms-flexbox;
