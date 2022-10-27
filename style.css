@@ -82,6 +82,7 @@ video {
 }
 
 .links {
+    padding-top: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
