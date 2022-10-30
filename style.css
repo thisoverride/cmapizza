@@ -1,6 +1,6 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    height: 100vh;
 }
 
 
@@ -18,8 +18,9 @@ nav {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.591);
-    padding: 20px;
+    /* background-color: rgba(255, 255, 255, 0.591); */
+    /* padding: 20px; */
+ 
 }
 
 .content-nav {
@@ -28,7 +29,12 @@ nav {
 }
 
 .img-fluid{
+    margin-top: 30px;
     width: 70px;
+    height: 70px;
+    background-color: #ffff;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 .btn-rounded-dark {
@@ -49,9 +55,7 @@ nav {
 }
 
 .header-content {
-    
-    width: 100vw;;
-    height: 80vh;
+    height: 70vh;
     /* background-color: red; */
     display: -webkit-box;
     display: -ms-flexbox;
