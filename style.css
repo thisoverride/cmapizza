@@ -3,6 +3,7 @@ body {
 
 }
 
+
 a {
     text-decoration: none;
     cursor: pointer;
@@ -22,16 +23,12 @@ nav {
 }
 
 .content-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 80%;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+}
+
+.img-fluid{
+    width: 70px;
 }
 
 .btn-rounded-dark {
@@ -41,16 +38,19 @@ nav {
     color: #ffff;
 }
 
-.btn-rounded-light {
-    background-color: #ffff;
-    border-radius: 20px;
+.btn-rounded-red {
+    width: 90px;
+    background-color: #CC0000;
+    border-radius: 5px;
     padding: 12px;
-    color: #000;
+    color: #ffff;
     -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
 }
 
 .header-content {
+    
+    width: 100vw;;
     height: 80vh;
     /* background-color: red; */
     display: -webkit-box;
@@ -65,18 +65,17 @@ nav {
 }
 
 video {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    position: fixed;
     z-index: -1;
 }
 
+
 .main-content {
     text-align: center;
-    /* text-transform: uppercase; */
 }
 
-.main-content>h1 {
+.main-content> h1 {
+    font-size: 50px;
     color: #ffff;
     text-shadow: 1px 1px 2px #000;
 }
@@ -87,15 +86,15 @@ video {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-footer {
+
+/* footer {
     position: fixed;
     bottom: 0px;
     left: 0px;
     right: 0px;
-    /* padding: 50px; */
     height: 50px;
     background-color: #ffff;
     display: -webkit-box;
@@ -117,4 +116,4 @@ footer {
     -ms-flex-align: center;
     align-items: center;
     width: 80%;
-}
+} */
